@@ -2,7 +2,13 @@
 
 @font-face {
 	font-family: Gilroy;
-	src: url('Gilroy.ttf'), url('Gilroy.eot');
+	src: url('Fonts/Gilroy-Regular.otf');
+}
+
+@font-face {
+	font-family: Gilroy;
+	src: url('Fonts/Gilroy-Bold.otf');
+	font-weight: bold;
 }
 
 .logo-text, h1, h2, h3, p, ul, li, a {
@@ -13,8 +19,12 @@ body, p, a, h1, h2, h3, ul, li {
 	margin: 0;
 }
 
+body, a {
+	font-size: 16px;
+}
+
 .logo-text {
-	font-weight: 900;
+	font-weight: 700;
 	letter-spacing: -1px;
 	font-size: 32px;
 	color: #f8b133;
@@ -61,7 +71,7 @@ p {
 .logo-container, .nav {
 	position: absolute;
 	padding: 32px;
-	width: 150px;
+	width: 200px;
 }
 
 .nav {
@@ -69,7 +79,7 @@ p {
 	text-align: right;
 }
 
-.nav li {
+.nav a {
 	line-height: 24px;
 }
 
@@ -267,7 +277,20 @@ ul, li, a {
 	}
 } 
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 900px) {
+
+	.nav a {
+		font-size: 40px;
+		line-height: 64px;
+	}
+
+	.logo-text {
+		font-size: 56px;
+	}
+
+	.work-label a {
+		font-size: 24px;
+	}
 
 	.half {
 		width: 100%;
@@ -291,6 +314,10 @@ ul, li, a {
 
 	.profile-container {
 		height: 400px;
+	}
+
+	.footer a {
+		font-size: 24px;
 	}
 }
 
