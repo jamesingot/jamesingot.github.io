@@ -180,7 +180,7 @@ ul, li, a {
 
 .social-networking {
 	float: left;
-	width: 256px;
+	width: 128px;
 	height: 32px;
 	background-color: #f8b133;
 }
@@ -277,8 +277,12 @@ ul, li, a {
 	}
 } 
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 640px) {
 
+	.header {
+		padding: 0;
+	}
+	
 	.nav a {
 		font-size: 40px;
 		line-height: 64px;
