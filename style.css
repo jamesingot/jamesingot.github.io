@@ -282,7 +282,11 @@ ul, li, a {
 	.header {
 		padding: 0;
 	}
-	
+
+	.nav {
+		display: none;
+	}
+
 	.nav a {
 		font-size: 40px;
 		line-height: 64px;
