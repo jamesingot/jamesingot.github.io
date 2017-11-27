@@ -12,7 +12,7 @@
 }
 
 .logo-text, h1, h2, h3, p, ul, li, a {
-	font-family: "Gilroy", serif;
+	font-family: "Gilroy", sans-serif;
 }
 
 body, p, a, h1, h2, h3, ul, li {
@@ -259,7 +259,7 @@ ul, li, a {
 .profile-label {
 	z-index: 10;
 	position: absolute;
-	top: 600px;
+	top: 560px;
 	padding: 24px;
 	width: auto;
 	background-color: #f8b133;
