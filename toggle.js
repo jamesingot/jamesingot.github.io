@@ -1,9 +1,10 @@
 
-function toggle() {
-    var x = document.getElementById("responsive-menu");
-    if (x.style.display === "none") {
-        x.style.display = "block";
+
+function showNav() {
+    var x = document.getElementById("responsive-nav");
+    if (x.className === "nav") {
+        x.className += " responsive";
     } else {
-        x.style.display = "none";
+        x.className = "nav";
     }
 }
