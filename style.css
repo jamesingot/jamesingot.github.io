@@ -1,4 +1,5 @@
 
+/*==== BASE STYLES ====*/
 
 @font-face {
 	font-family: Gilroy;
@@ -59,41 +60,6 @@ p {
 	padding-top: 48px;
 }
 
-.logo {
-	margin: 0 auto;
-}
-
-.logo, .logo img {
-	width: 340px;
-	height: 340px;
-}
-
-.logo-container, .nav {
-	position: absolute;
-	padding: 32px;
-	width: 200px;
-}
-
-.nav {
-	right: 0;
-	text-align: right;
-}
-
-.nav a {
-	line-height: 24px;
-}
-
-.nav .icon {
-	display: none;
-}
-
-ul, li, a {
-	text-decoration: none;
-	list-style: none;
-	margin: 0;
-	color: grey;
-}
-
 .content {
 	z-index: 1;
 	margin: 0 auto;
@@ -117,6 +83,69 @@ ul, li, a {
 	margin-top: 72px;
 	margin-bottom: 62px;
 }
+
+/*==== FOOTER ====*/
+
+.footer {
+	position: relative;
+	clear: both;
+	height: 128px;
+	padding-top: 72px;
+	margin-top: 128px;
+}
+
+.social-networking {
+	float: left;
+	width: 128px;
+	height: 32px;
+	background-color: #f8b133;
+}
+
+.info {
+	float: right;
+
+}
+
+/*==== LOGO ====*/
+
+.logo {
+	margin: 0 auto;
+}
+
+.logo, .logo img {
+	width: 340px;
+	height: 340px;
+}
+
+.logo-container, .nav {
+	position: absolute;
+	padding: 32px;
+	width: 200px;
+}
+
+/*==== NAVIGATION ====*/
+
+.nav {
+	right: 0;
+	text-align: right;
+}
+
+.nav a {
+	line-height: 24px;
+}
+
+.nav .icon {
+	display: none;
+}
+
+ul, li, a {
+	text-decoration: none;
+	list-style: none;
+	margin: 0;
+	color: grey;
+}
+
+/*==== WORK ====*/
 
 .work-container {
 	position: relative;
@@ -174,32 +203,7 @@ ul, li, a {
 	float: left;
 }
 
-.footer {
-	position: relative;
-	clear: both;
-	height: 128px;
-	padding-top: 72px;
-	margin-top: 128px;
-}
-
-.social-networking {
-	float: left;
-	width: 128px;
-	height: 32px;
-	background-color: #f8b133;
-}
-
-.info {
-	float: right;
-
-}
-
-.service-icon {
-	width: 240px;
-	height: 240px;
-	background-color: red;
-	float: left;
-}
+/*==== SERVICES ====*/
 
 .service-description p {
 	font-size: 24px;
@@ -208,6 +212,8 @@ ul, li, a {
 	padding-bottom: 72px;
 	color: grey;
 }
+
+/*==== PROJECT ====*/
 
 .section-container {
 	clear: both;
@@ -232,6 +238,8 @@ ul, li, a {
 	display: block;
 	margin: 0 auto;
 }
+
+/*==== ABOUT ====*/
 
 .profile-outer {
 	width: 80%;
