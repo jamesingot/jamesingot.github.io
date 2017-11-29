@@ -53,6 +53,8 @@ p {
 	font-weight: 700;
 }
 
+/*==== PAGE STRUCTURE ====*/
+
 .header {
 	z-index: 10;
 	position: fixed;
