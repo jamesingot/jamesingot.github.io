@@ -255,7 +255,7 @@ ul, li, a {
 	position: relative;
 	width: 42%;
 	display: inline-block;
-	height: 720px;
+	height: 640px;
 	float: left;
 	margin: 24px;
 }
@@ -269,7 +269,7 @@ ul, li, a {
 .profile-label {
 	z-index: 10;
 	position: absolute;
-	top: 560px;
+	top: 500px;
 	padding: 24px;
 	width: auto;
 	background-color: #f8b133;
