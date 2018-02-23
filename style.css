@@ -89,6 +89,7 @@ p {
 /*==== FOOTER ====*/
 
 .footer {
+	z-index: 10;
 	position: fixed;
 	left: 0;
 	bottom: 0;
